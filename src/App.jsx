@@ -11,7 +11,7 @@ import Poema from './Poema';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MostraCultural />} />
+      <Route path="/Mostra-Cultural" element={<MostraCultural />} />
       <Route path="/dicionario" element={<Dicionario />} />
       <Route path="/poema" element={<Poema />} />
       <Route path="/personalidades" element={<Personalidades />} />
